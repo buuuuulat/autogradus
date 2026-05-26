@@ -19,11 +19,13 @@ print(d.data, d.grad)  # 150 1.0
 
 ## MNIST
 
-An MLP `(784, 32, 10)` trained from scratch — see [examples/train_mnist.ipynb](examples/train_mnist.ipynb).
+An MLP `(784, 32, 10)` trained from scratch – see [examples/train_mnist.ipynb](examples/train_mnist.ipynb).
 
 Test accuracy: **0.725**
 *(200 train / 200 test samples, 10 epochs, lr = 0.03, cross-entropy loss, tanh hidden activation)*
 
+Training loss curve
 ![Learning curve](other/loss_curve.png)
 
+Predictions on test set
 ![Predictions on test set](other/predictions.png)
